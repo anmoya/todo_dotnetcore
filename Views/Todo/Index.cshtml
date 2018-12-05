@@ -26,6 +26,6 @@
         }
     </table>
     <div class="panel-footer add-item-form">
-        <!-- Para añadir mas tareas (form) -->
+        @await Html.PartialAsync("AddItemPartial", new TodoItem())
     </div>
 </div>
